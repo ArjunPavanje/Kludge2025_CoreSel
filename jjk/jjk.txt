@@ -1,0 +1,144 @@
+/lib64/ld-linux-x86-64.so.2
+mgUa
+fgets
+snprintf
+stdin
+puts
+exit
+clock
+strstr
+strcspn
+__libc_start_main
+mprotect
+__cxa_finalize
+getenv
+memset
+libc.so.6
+GLIBC_2.34
+GLIBC_2.2.5
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_ITM_registerTMCloneTable
+PTE1
+u+UH
+gfffH
+Stack corruption detected!
+Check: %d
+Check: 3
+Debugger detected via signal!
+TERM
+LD_PRELOAD
+LINES
+COLUMNS
+debug
+DEBUG: Password check failed!
+Security check %d failed!
+[+] Congratulations! You've successfully reverse engineered the binary!
+[+] Flag: %s
+DEBUG: Debugger detected but continuing anyway...
+=== Reverse Engineering Challenge ===
+Target: Find the hidden flag!
+Enter the password to reveal the flag: 
+Input error!
+[-] Incorrect password! Try harder.
+This is a decoy function 1
+This is a decoy function 2
+This is a decoy function 3
+;*3$"
+%,.& (|y~
+$)6$
+y!}#~
+%}#}8?~)
+}#~0
+GCC: (Debian 14.2.0-19) 14.2.0
+Scrt1.o
+__abi_tag
+crtstuff.c
+deregister_tm_clones
+__do_global_dtors_aux
+completed.0
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+chall.c
+check_stage
+user_input
+checkpoint
+code.0
+dummy_func1
+dummy_func2
+dummy_func3
+__FRAME_END__
+_DYNAMIC
+__GNU_EH_FRAME_HDR
+_GLOBAL_OFFSET_TABLE_
+getenv@GLIBC_2.2.5
+__libc_start_main@GLIBC_2.34
+_ITM_deregisterTMCloneTable
+puts@GLIBC_2.2.5
+stdin@GLIBC_2.2.5
+obfuscated_flag
+_edata
+verify_password
+clock@GLIBC_2.2.5
+_fini
+snprintf@GLIBC_2.2.5
+memset@GLIBC_2.2.5
+strcspn@GLIBC_2.2.5
+signal_handler
+fgets@GLIBC_2.2.5
+self_modify_check
+__data_start
+obfuscated_key
+format_check
+__gmon_start__
+__dso_handle
+_IO_stdin_used
+init_protection
+stack_check
+timing_check
+_end
+reveal_flag
+__bss_start
+main
+cleanup
+mprotect@GLIBC_2.2.5
+control_flow_check
+exit@GLIBC_2.2.5
+compare
+__TMC_END__
+_ITM_registerTMCloneTable
+init_operations
+env_check
+__cxa_finalize@GLIBC_2.2.5
+_init
+strstr@GLIBC_2.2.5
+decode_string
+.symtab
+.strtab
+.shstrtab
+.note.gnu.property
+.note.gnu.build-id
+.interp
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.ABI-tag
+.init_array
+.fini_array
+.dynamic
+.got.plt
+.data
+.bss
+.comment
