@@ -44,6 +44,21 @@ This gives us the flag,
 \begin{verbatim}
 ImNotMid{n3twork1n9_i$_7h3_k3y_7o_succ35s_81tch}
 \end{verbatim}
+\subsection{Sniffer}
+I found the three parts of interest,
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\linewidth]{figs/sniffer1.png}
+    \label{fig:enter-label}
+\end{figure}
+\pagebreak 
+\newline On analysing the first part, we find a message (aHR0cHM6Ly93d3cuYW5vbmZpbGUu\\GEvMjM5ZGY1) which is in base64. On decoding we get the url \url{https://www.anonfile.la/239df5} from where we get a zip file which has the flag but is password locked. On analyzing the second part we get, \pagebreak
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\linewidth]{figs/sniffer3.png}
+    \label{fig:enter-label}
+\end{figure}
+\newline On decoding the X-Custom-Token (base64 encoded) we get, "Firstly.... Good that you are able to see me. You have Kludge irrespective of your selection. Now go search more with --SUSANO--".
 \section{Cryptography}
 \subsection{Wordle}
 Opened the website \url{https://core-ctf.vercel.app/},
@@ -112,7 +127,14 @@ We observe that obfuscated key is held at the memory location $00104080$ and hol
 \begin{figure}[h!]
     \centering
     \includegraphics[width=1\linewidth]{figs/jjk4.png}
-    \caption{"Throughout Heaven and Earth, I Alone Am The Honored One", Kit-Kat}
+    \caption{"Throughout Heaven and Earth, I Alone Am The Honored One", Satoru Gojo}
     \label{fig:enter-label}
 \end{figure}
+\section{Stegnography}
+\subsection{99.9 $\%$ truth}
+I tried running stegseek (with rockyou.txt), gave nothing.
+\subsection{Osint}
+\subsubsection{Dora}
+I got parts of the flag, " imNotMid{051nt$\_$1 " and a file $\_$neverTEL$\_$ and a README and no idea what to do after.
 \end{document}
+
