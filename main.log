@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  25 MAY 2025 17:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  25 MAY 2025 20:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -51,28 +51,62 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+(/opt/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
+)
 (/opt/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count270
 \l__pdf_internal_box=\box52
 )
-(./main.aux)
+(./main.aux
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
  (/opt/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count271
@@ -96,77 +130,80 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
+(Font)              <12> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
+(Font)              <8> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
-<figs/chatty_1.png, id=1, 1874.00125pt x 803.0pt>
-File: figs/chatty_1.png Graphic file (type png)
-<use figs/chatty_1.png>
-Package pdftex.def Info: figs/chatty_1.png  used on input line 22.
-(pdftex.def)             Requested size: 345.0pt x 147.82976pt.
-<figs/chattty_2.png, id=2, 1878.01625pt x 793.96625pt>
-File: figs/chattty_2.png Graphic file (type png)
-<use figs/chattty_2.png>
-Package pdftex.def Info: figs/chattty_2.png  used on input line 29.
-(pdftex.def)             Requested size: 345.0pt x 145.85168pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 32.
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--35
-
- []
-
+(Font)              <6> on input line 9.
+<.logo/logo.png, id=1, 1204.5pt x 1318.9275pt>
+File: .logo/logo.png Graphic file (type png)
+<use .logo/logo.png>
+Package pdftex.def Info: .logo/logo.png  used on input line 16.
+(pdftex.def)             Requested size: 100.0pt x 109.48102pt.
 
 
 [1
 
-{/opt/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figs/chatty
-_1.png>]
-<figs/sniffer1.png, id=12, 965.6075pt x 455.7025pt>
+{/opt/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./.logo/logo.
+png>]
+<figs/chatty_1.png, id=13, 1874.00125pt x 803.0pt>
+File: figs/chatty_1.png Graphic file (type png)
+<use figs/chatty_1.png>
+Package pdftex.def Info: figs/chatty_1.png  used on input line 34.
+(pdftex.def)             Requested size: 345.0pt x 147.82976pt.
+<figs/chattty_2.png, id=14, 1878.01625pt x 793.96625pt>
+File: figs/chattty_2.png Graphic file (type png)
+<use figs/chattty_2.png>
+Package pdftex.def Info: figs/chattty_2.png  used on input line 40.
+(pdftex.def)             Requested size: 345.0pt x 145.85168pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 43.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--46
+
+ []
+
+
+
+[2 <./figs/chatty_1.png> <./figs/chattty_2.png>]
+<figs/sniffer1.png, id=19, 965.6075pt x 455.7025pt>
 File: figs/sniffer1.png Graphic file (type png)
 <use figs/sniffer1.png>
-Package pdftex.def Info: figs/sniffer1.png  used on input line 51.
+Package pdftex.def Info: figs/sniffer1.png  used on input line 62.
 (pdftex.def)             Requested size: 345.0pt x 162.81505pt.
-<figs/sniffer3.png, id=13, 932.48375pt x 396.48125pt>
+<figs/sniffer3.png, id=20, 932.48375pt x 396.48125pt>
 File: figs/sniffer3.png Graphic file (type png)
 <use figs/sniffer3.png>
-Package pdftex.def Info: figs/sniffer3.png  used on input line 58.
+Package pdftex.def Info: figs/sniffer3.png  used on input line 68.
 (pdftex.def)             Requested size: 345.0pt x 146.68971pt.
 
-Overfull \hbox (26.95908pt too wide) in paragraph at lines 48--62
+Overfull \hbox (26.95908pt too wide) in paragraph at lines 59--72
 \OT1/cmr/m/n/10 On analysing the first part, we find a mes-sage (aHR0cHM6Ly93d3
 cuYW5vbmZpbGUu 
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-[2 <./figs/chattty_2.png>]
 
 [3 <./figs/sniffer1.png>]
-<figs/wordle1.png, id=22, 460.72125pt x 593.21625pt>
+<figs/wordle1.png, id=25, 460.72125pt x 593.21625pt>
 File: figs/wordle1.png Graphic file (type png)
 <use figs/wordle1.png>
-Package pdftex.def Info: figs/wordle1.png  used on input line 67.
+Package pdftex.def Info: figs/wordle1.png  used on input line 77.
 (pdftex.def)             Requested size: 172.5pt x 222.10252pt.
-<figs/wordle2.png, id=23, 696.6025pt x 352.31625pt>
+<figs/wordle2.png, id=26, 696.6025pt x 352.31625pt>
 File: figs/wordle2.png Graphic file (type png)
 <use figs/wordle2.png>
-Package pdftex.def Info: figs/wordle2.png  used on input line 74.
+Package pdftex.def Info: figs/wordle2.png  used on input line 84.
 (pdftex.def)             Requested size: 345.0pt x 174.48578pt.
 
-Overfull \hbox (5.3866pt too wide) in paragraph at lines 64--78
+Overfull \hbox (5.3866pt too wide) in paragraph at lines 74--88
 \OT1/cmr/m/n/10 Then went to $\OT1/cmtt/m/n/10 https : / / core-[]ctf . vercel 
 . app / assets / index-[]CCe0eGrI . js$ \OT1/cmr/m/n/10 (af-
  []
@@ -174,27 +211,27 @@ Overfull \hbox (5.3866pt too wide) in paragraph at lines 64--78
 
 
 [4 <./figs/sniffer3.png> <./figs/wordle1.png>]
-<figs/wordle3.png, id=27, 1848.9075pt x 985.6825pt>
+<figs/wordle3.png, id=30, 1848.9075pt x 985.6825pt>
 File: figs/wordle3.png Graphic file (type png)
 <use figs/wordle3.png>
-Package pdftex.def Info: figs/wordle3.png  used on input line 83.
+Package pdftex.def Info: figs/wordle3.png  used on input line 93.
 (pdftex.def)             Requested size: 345.0pt x 183.92763pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/rsa.png, id=28, 741.77126pt x 579.16376pt>
+<figs/rsa.png, id=31, 741.77126pt x 579.16376pt>
 File: figs/rsa.png Graphic file (type png)
 <use figs/rsa.png>
-Package pdftex.def Info: figs/rsa.png  used on input line 92.
+Package pdftex.def Info: figs/rsa.png  used on input line 102.
 (pdftex.def)             Requested size: 345.0pt x 269.37022pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--97
+Underfull \hbox (badness 10000) in paragraph at lines 97--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--97
+Underfull \hbox (badness 10000) in paragraph at lines 97--107
 
  []
 
@@ -204,66 +241,72 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 [5 <./figs/wordle2.png>]
-<figs/jjk1.png, id=34, 330.23375pt x 81.30376pt>
+<figs/jjk1.png, id=37, 330.23375pt x 81.30376pt>
 File: figs/jjk1.png Graphic file (type png)
 <use figs/jjk1.png>
-Package pdftex.def Info: figs/jjk1.png  used on input line 105.
+Package pdftex.def Info: figs/jjk1.png  used on input line 115.
 (pdftex.def)             Requested size: 207.0021pt x 50.96606pt.
 
 
 [6 <./figs/wordle3.png> <./figs/rsa.png>]
-<figs/jjk2.png, id=38, 583.17876pt x 424.58624pt>
+<figs/jjk2.png, id=41, 583.17876pt x 424.58624pt>
 File: figs/jjk2.png Graphic file (type png)
 <use figs/jjk2.png>
-Package pdftex.def Info: figs/jjk2.png  used on input line 111.
+Package pdftex.def Info: figs/jjk2.png  used on input line 121.
 (pdftex.def)             Requested size: 345.0pt x 251.18396pt.
 
 
 [7 <./figs/jjk1.png> <./figs/jjk2.png>]
-<figs/jjk4.png, id=43, 603.25375pt x 144.54pt>
+<figs/jjk4.png, id=46, 603.25375pt x 144.54pt>
 File: figs/jjk4.png Graphic file (type png)
 <use figs/jjk4.png>
-Package pdftex.def Info: figs/jjk4.png  used on input line 129.
+Package pdftex.def Info: figs/jjk4.png  used on input line 139.
 (pdftex.def)             Requested size: 345.0pt x 82.66212pt.
 
 
 [8{/opt/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./f
-igs/jjk4.png>] (./main.aux)
+igs/jjk4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 152--158
+
+ []
+
+
+
+[9] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 138 ({)
+### simple group (level 1) entered at line 155 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 1477 strings out of 473190
- 24197 string characters out of 5691840
- 415552 words of memory out of 5000000
- 24759 multiletter control sequences out of 15000+600000
- 563595 words of font info for 52 fonts, out of 8000000 for 9000
+ 1508 strings out of 473190
+ 24888 string characters out of 5691840
+ 415766 words of memory out of 5000000
+ 24787 multiletter control sequences out of 15000+600000
+ 563902 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,7n,65p,552b,234s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,7n,65p,552b,274s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 bx10.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
 b></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt
 /texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/texlive
 /2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/texlive/2025/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/texlive/2025/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/texlive/2025/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2025/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmtt10.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/cm-
-super/sfrm1000.pfb>
-Output written on main.pdf (8 pages, 2449351 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/texlive/2025/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2025/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmtt10.pfb></opt/texlive/2025/texmf-dist/fonts/type1/pu
+blic/cm-super/sfrm1000.pfb>
+Output written on main.pdf (9 pages, 2536573 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 94 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

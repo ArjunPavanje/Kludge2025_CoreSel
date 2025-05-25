@@ -2,12 +2,24 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
 \usepackage{url}
-
-\title{KludgeCTF}
-\author{Arjun Pavanje}
-\date{May 2025}
-
+\usepackage{makeidx}
+\title{\textbf{Kludge Core Selections 2025}}
+\author{EE24BTECH11005 : Arjun Pavanje}
 \begin{document}
+\maketitle
+\begin{center}
+	\textbf{Writeup}
+\end{center}
+\vspace{30pt}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width = 100pt]{.logo/logo.png}\\
+\end{figure}
+\begin{center}
+	Bachelor of Technology\\
+	\vspace{10pt}
+\end{center}
+\newpage
 
 \maketitle
 \section{Miscellaneous}
@@ -22,7 +34,6 @@ Analysing using Wireshark,,,
     \includegraphics[width=1\linewidth]{figs/chatty_1.png}
     \label{fig:enter-label}
 \end{figure}
-\pagebreak
 \newline Viewing all communication made using DNS protocol,
 \begin{figure}[h!]
     \centering
@@ -51,7 +62,6 @@ I found the three parts of interest,
     \includegraphics[width=1\linewidth]{figs/sniffer1.png}
     \label{fig:enter-label}
 \end{figure}
-\pagebreak 
 \newline On analysing the first part, we find a message (aHR0cHM6Ly93d3cuYW5vbmZpbGUu\\GEvMjM5ZGY1) which is in base64. On decoding we get the url \url{https://www.anonfile.la/239df5} from where we get a zip file which has the flag but is password locked. On analyzing the second part we get, \pagebreak
 \begin{figure}[h!]
     \centering
@@ -132,9 +142,18 @@ We observe that obfuscated key is held at the memory location $00104080$ and hol
 \end{figure}
 \section{Stegnography}
 \subsection{99.9 $\%$ truth}
-I tried running stegseek (with rockyou.txt), gave nothing.
-\subsection{Osint}
+After heeding the hint of "Queen" and "rockyou", I figured that the password to unlock the text hidden in the image (when steghide is used) would be a part of "rockyou.txt" which contains a list of commonly used passwords. When I tried running stegseek (with rockyou.txt), I got nothing.
+\subsection{OSINT}
 \subsubsection{Dora}
+We were given an image, which has text hidden in it. On running the "file" command on the image,
+\begin{verbatim}
+file chall.jpg
+\end{verbatim}
+We get, "chall.jpg: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, comment: "imNotM", baseline, precision 8, 800x600, components 3 ". \\
+We see that entering "imNotM" as a passphrase to (steghide extract -sf chall.jpg) works. \newline \newline 
+We get a textfile (secret.txt) with one part of the flag and a pastebin link. On clicking on the link, I recieved another part of the flag and another link from where I recieved a zip file. On unzipping I found a README file with two lines of poetry and a folder called $\_$neverTEL$\_$ which yielded nothing. I was unable to continue from there.
 I got parts of the flag, " imNotMid{051nt$\_$1 " and a file $\_$neverTEL$\_$ and a README and no idea what to do after.
+\newline 
+All codes and files used can be found here, \\ \url{https://github.com/ArjunPavanje/Kludge2025_CoreSel}
 \end{document}
 
